@@ -1,0 +1,60 @@
+.backhome{
+    color: white;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+.tb1-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .tb1-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tb1-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .tb1-container p {
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .tb1-container p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  .tb1-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .tb1-container {
+      padding: 10px;
+    }
+  
+    .tb1-container h1 {
+      font-size: 2rem;
+    }
+  
+    .tb1-container p {
+      font-size: 0.9rem;
+    }
+  }
+  

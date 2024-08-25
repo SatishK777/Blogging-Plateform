@@ -1,0 +1,44 @@
+.home-banner {
+    background-image: url('https://your-image-url.com/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .banner-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .banner-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .banner-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .banner-content button {
+    background-color: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-content button:hover {
+    background-color: #e5533d;
+  }
+  

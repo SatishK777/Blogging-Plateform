@@ -1,0 +1,44 @@
+.post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .blognavigate{
+    border: 1px solid palevioletred;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+  }
+  h2{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .post-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .post-content {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+  
+  .comment-section {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
